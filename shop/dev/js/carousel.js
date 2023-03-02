@@ -6,3 +6,6 @@ var carousel = new bootstrap.Carousel(myCarousel, {
   keyboard:true,
   touch: true
 })
+
+
+
