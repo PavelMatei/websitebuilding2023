@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        setTimeout(function a() { console.log('Sunt in a()'); }, 1000);
+
+        setTimeout(function b() { console.log('Sunt in b()'); }, 500);
+
+        setTimeout(function c() { console.log('Sunt in c()'); }, 0);
+
+        function d() { console.log('Sunt in d()'); }
+
+        d();
+    </script>
+</body>
+
+</html>
