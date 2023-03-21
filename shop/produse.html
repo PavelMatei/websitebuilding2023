@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <section w3-include-html="navbar.html"></section>
     <section class="section">
         <div class="container">
             <div class="row">
@@ -38,6 +39,7 @@
         </div>
     </section>
     <div id="loader" class="lds-dual-ring hidden overlay"></div>
+    <section w3-include-html="footer.html"></section>
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"
         integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
@@ -48,9 +50,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
         integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+    <script src="./assets/js/produse.js"></script>
+    <script src="./assets/js/cart.js"></script>
+    <script src="./dev/js/include.js"></script>
     <script src="api.js"></script>
-
+<script>
+    $(document).ready(function (){
+        $('#produse').addClass('active');
+    })
+</script>
 
 </body>
 

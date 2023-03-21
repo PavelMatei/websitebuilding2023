@@ -77,6 +77,8 @@ async function listProducts(products) {
                 <h4 class="card-title">${product.name} ${product.category}</h4>
                 <p class="text-muted">Starting from ${product.price}</p>
                 <a class="btn btn-outline-primary btn-sm" href="#" data-abc="true">View Products</a>
+                <a href="#" data-id="${product.id}" data-name="${product.name}" data-price="${product.price}" class="add-to-cart btn btn-primary text-white">Add to
+                cart</a>
             </div>
         </div>
     </div>
@@ -89,3 +91,4 @@ async function listProducts(products) {
 
 }
 console.log('se termina api')
+
